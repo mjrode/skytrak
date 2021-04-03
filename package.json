@@ -1,8 +1,8 @@
 {
-  "name": "skytrack-chkr",
+  "name": "skytrak-chkr",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://myusername.github.io/skytrack",
+  "homepage": "https://myusername.github.io/skytrak",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
