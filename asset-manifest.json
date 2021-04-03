@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/%3Cproject-name%3E/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/%3Cproject-name%3E/static/js/main.824b572e.chunk.js",
-    "main.js.map": "/%3Cproject-name%3E/static/js/main.824b572e.chunk.js.map",
-    "runtime-main.js": "/%3Cproject-name%3E/static/js/runtime-main.b3d99a9f.js",
-    "runtime-main.js.map": "/%3Cproject-name%3E/static/js/runtime-main.b3d99a9f.js.map",
-    "static/js/2.cb8bef44.chunk.js": "/%3Cproject-name%3E/static/js/2.cb8bef44.chunk.js",
-    "static/js/2.cb8bef44.chunk.js.map": "/%3Cproject-name%3E/static/js/2.cb8bef44.chunk.js.map",
-    "static/js/3.890bfcd9.chunk.js": "/%3Cproject-name%3E/static/js/3.890bfcd9.chunk.js",
-    "static/js/3.890bfcd9.chunk.js.map": "/%3Cproject-name%3E/static/js/3.890bfcd9.chunk.js.map",
-    "index.html": "/%3Cproject-name%3E/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/%3Cproject-name%3E/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.cb8bef44.chunk.js.LICENSE.txt": "/%3Cproject-name%3E/static/js/2.cb8bef44.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/%3Cproject-name%3E/static/media/logo.6ce24c58.svg"
+    "main.css": "/skytrack/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/skytrack/static/js/main.b5222b9b.chunk.js",
+    "main.js.map": "/skytrack/static/js/main.b5222b9b.chunk.js.map",
+    "runtime-main.js": "/skytrack/static/js/runtime-main.4f6a135a.js",
+    "runtime-main.js.map": "/skytrack/static/js/runtime-main.4f6a135a.js.map",
+    "static/js/2.93bf2a55.chunk.js": "/skytrack/static/js/2.93bf2a55.chunk.js",
+    "static/js/2.93bf2a55.chunk.js.map": "/skytrack/static/js/2.93bf2a55.chunk.js.map",
+    "static/js/3.1fbf90e5.chunk.js": "/skytrack/static/js/3.1fbf90e5.chunk.js",
+    "static/js/3.1fbf90e5.chunk.js.map": "/skytrack/static/js/3.1fbf90e5.chunk.js.map",
+    "index.html": "/skytrack/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/skytrack/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.93bf2a55.chunk.js.LICENSE.txt": "/skytrack/static/js/2.93bf2a55.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/skytrack/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b3d99a9f.js",
-    "static/js/2.cb8bef44.chunk.js",
+    "static/js/runtime-main.4f6a135a.js",
+    "static/js/2.93bf2a55.chunk.js",
     "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.824b572e.chunk.js"
+    "static/js/main.b5222b9b.chunk.js"
   ]
 }
