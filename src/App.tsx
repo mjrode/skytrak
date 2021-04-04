@@ -1,25 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Container from '@material-ui/core/Container';
+import { useGetPlayBetterStock } from './hooks/use-queries';
+import Typography from '@material-ui/core/Typography';
+import CustomCard from './components/card';
 
 function App() {
+  const playBetterResponse = useGetPlayBetterStock();
+  if (!playBetterResponse?.product)
+    return (
+      <div>
+        <h1>Loading...</h1>
+      </div>
+    );
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Typography style={{ color: '#ffffff' }} variant='h1' align='center'>
+        SkyTrak Listings
+      </Typography>
+
+      {playBetterResponse.variants.map((item) => (
+        <CustomCard
+          item={item}
+          vendor={'Play Better'}
+          updatedAt={playBetterResponse.product.updated_at}
+        ></CustomCard>
+      ))}
+    </Container>
   );
 }
 
