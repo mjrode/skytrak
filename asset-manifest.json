@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/skytrak/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/skytrak/static/js/main.1960491f.chunk.js",
-    "main.js.map": "/skytrak/static/js/main.1960491f.chunk.js.map",
+    "main.js": "/skytrak/static/js/main.539e298d.chunk.js",
+    "main.js.map": "/skytrak/static/js/main.539e298d.chunk.js.map",
     "runtime-main.js": "/skytrak/static/js/runtime-main.002a0f6a.js",
     "runtime-main.js.map": "/skytrak/static/js/runtime-main.002a0f6a.js.map",
     "static/js/2.a5fc187a.chunk.js": "/skytrak/static/js/2.a5fc187a.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.002a0f6a.js",
     "static/js/2.a5fc187a.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.1960491f.chunk.js"
+    "static/js/main.539e298d.chunk.js"
   ]
 }
