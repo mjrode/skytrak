@@ -16,7 +16,7 @@ function App() {
   return (
     <Container>
       <Typography style={{ color: '#ffffff' }} variant='h1' align='center'>
-        SkyTrak Listings
+        SkyTraker
       </Typography>
 
       {playBetterResponse.variants.map((item) => (
