@@ -1,7 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
-import { Paper, Grid, ButtonBase } from '@material-ui/core';
+import { Paper, Grid, ButtonBase, Button, Link } from '@material-ui/core';
 import Typography from '@material-ui/core/Typography';
 import { PlayBetterVariant } from '../types/types';
 
@@ -59,16 +59,22 @@ const CustomCard: React.FC<any> = ({ vendor, item, updatedAt }) => {
                   {item.name}
                 </Typography>
                 <Typography variant='body2' gutterBottom>
+                  {'Link:  '}
+                  <Link
+                    color='primary'
+                    href='https://www.playbetter.com/collections/golf-launch-monitor/products/skytrak-golf-simulator-launch-monitor'
+                  >
+                    PlayBetter
+                  </Link>
+                </Typography>
+                <Typography variant='body2' color='textSecondary'>
                   {`Item updated: ${new Date(updatedAt).toLocaleDateString()}`}
                 </Typography>
-                <Typography variant='body2' color='textSecondary'></Typography>
               </Grid>
               <Grid item>
                 <Typography
                   style={
-                    item.available
-                      ? { color: '#66eb51', paddingTop: '2em' }
-                      : { color: '#ed6161', paddingTop: '2em' }
+                    item.available ? { color: '#66eb51' } : { color: '#ed6161' }
                   }
                   variant='h4'
                 >
